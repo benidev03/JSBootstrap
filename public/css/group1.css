@@ -1,0 +1,116 @@
+
+#group_1{
+    padding: 40px 100px;
+}
+
+#group_1 header h1{
+    font-size: 60px;   
+}
+#group_1 header{
+    width: 100%;
+    height: auto;   
+}
+#group_1 header p{
+    box-sizing: content-box;
+    width: auto;
+}
+.img_wrapper{
+    width: 100%;
+    flex-grow: 1 1 0;
+}
+
+.img_wrapper img{
+    width: 100%;
+    height: auto;
+}
+#group_1 header a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 120px 0px 0px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 767px){
+    #group_1{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px;
+        text-align: center;
+        gap: 10px;
+        width: auto;
+        margin: 30px;
+    }
+    #group_1 header{
+        gap: 10px; 
+     }
+    
+    #group_1 header h1{
+        font-size: 20px;
+    }
+    #group_1 header p{
+        font-size: 10px;
+    }
+    #group_1 header a{
+        width: 100%;
+        padding: 5px 0px;
+        font-size: 10px;
+    }
+  
+ }
+ @media screen and (min-width: 768px) and (max-width: 1023px) {
+    #group_1{
+        padding: 0px 20px;
+        text-align: center;
+        gap: 20px;
+        width: auto;
+        margin: 30px;
+    }
+    #group_1 header{
+        gap: 10px; 
+     }
+    
+    #group_1 header h1{
+        font-size: 40px;
+    }
+    #group_1 header p{
+        font-size: 20px;
+    }
+    #group_1 header a{
+        width: 100%;
+        padding: 5px 0px;
+        font-size: 20px;
+    }
+    .img_wrapper img{
+        padding-top: 20px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    #group_1{
+        padding: 0px 20px;
+        text-align: center;
+        gap: 20px;
+        width: auto;
+        margin: 30px;
+    }
+    #group_1 header{
+        gap: 10px; 
+     }
+    
+    #group_1 header h1{
+        font-size: 60px;
+    }
+    #group_1 header p{
+        font-size: 20px;
+    }
+    #group_1 header a{
+        width: 100%;
+        padding: 10px 0px;
+        
+    }
+
+}
+

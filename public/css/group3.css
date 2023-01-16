@@ -1,0 +1,57 @@
+.group_3  header{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 60px;
+    gap: 20px;
+    padding: 30px;
+}
+
+.group_3 header h1{
+    font-size: 50px;
+    box-sizing: border-box;
+    width: 40%;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.group_3 header p{
+    font-size: 13px;
+    box-sizing: border-box;
+    width: 40%;
+    text-align: center;
+}
+
+.group_3 footer{
+    display: flex;
+    padding: 0px 100px;
+   
+}
+.group_3 footer img{
+    width: 100%;
+    padding: 0px 20px;
+    margin-top: 200px;
+ }
+ .group_3 footer article img{
+    height: 30%;
+    width: 60%;
+ }
+ .group_3 footer .img-left{
+    height: 500px;
+    width: 50%;
+ }
+ .group_3 footer div{
+    display: flex;
+    padding: 0px 20px;
+    margin-top: 40px;
+    gap: 20px;
+ }
+
+ 
+ 
+ 
+
+ 
+

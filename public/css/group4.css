@@ -1,0 +1,135 @@
+.header-1{
+    background: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 60px;
+    padding: 100px 0px;
+}
+
+.group_4 header article{
+    display: flex;
+    flex-direction: column;
+}
+.group_4 header img{
+    width: 100%;
+    
+}
+
+.group_4 header article h1{
+    font-size: 40px;
+    box-sizing: border-box;
+    width: 80%;
+    margin-bottom: 40px;
+}
+.group_4 header article h2{
+    margin-top: 40px;
+}
+.group_4 header article p{
+    margin-top: 10px;
+}
+.group_4 header article{
+    padding: 0px 100px;
+    box-sizing: border-box;
+}
+.group_4 article{
+    display: flex;
+}
+/************************ ARTICLE 1 *************************/
+.art-1{
+    display: flex;
+    padding: 40px 100px;
+    gap: 100px;
+    width: 100%;
+    margin-top: 60px;
+}
+.art-1 header{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.art-1 header h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+   
+}
+.art-1 header p{
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+.art-1 hr.line{
+    border: 1px solid #333;
+    background-color: #333;
+ }
+ .art-1 img{
+    width: 40%;
+ }
+ /************************ ARTICLE 2 *************************/
+.art-2{
+    margin-top: 200px;
+}
+.art-2{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 100px;
+    gap: 100px;
+    width: 100%; 
+    align-items: center;
+}
+.art-2 header{
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 30px;
+    width: 40%;
+    
+}
+.art-2 footer{
+    display: flex;
+   
+}
+.art-2 footer article{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+ /************************ ARTICLE 3 *************************/
+ .art-3{
+    display: flex;
+    padding: 40px 100px;
+    gap: 100px;
+    width: 100%;
+    margin-top: 60px;
+}
+.art-3 header{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.art-3 header h2{
+    font-size: 60px;
+    margin-bottom: 30px;
+   
+}
+.art-3 header p{
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+ .forme{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+ }
+ 
+ .art-3 img{
+    width: 100%;
+ }
